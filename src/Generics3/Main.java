@@ -22,7 +22,8 @@ public class Main {
         p2.doSomethingonFirst(a1);
 
         p2.printMoreFirstsAgain(Arrays.asList(d1,d2,d3));
-
+        List<Integer> list= new ArrayList<>();
+        list.add(0);
 
 
 
