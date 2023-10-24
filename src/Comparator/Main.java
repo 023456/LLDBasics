@@ -23,6 +23,19 @@ public class Main {
         System.out.println(students);
 
 
+        Student s1 =  new Student(1,23,"Mary",91);
+        Student s2 =  new Student(1,23,"Mary",91);
+//        Student s1 = null;
+
+        if(s1.equals(s2)){
+            System.out.println("Both students are equal");
+        }
+
+        int h1 = s1.hashCode();
+        int h2 = s2.hashCode();
+        System.out.println(h1);
+        System.out.println(h2);
+
 
 
 
