@@ -7,7 +7,7 @@ public class Printer<T> {
         this.value = value;
     }
 
-    public static <T> void  getValue(T value) {
+    public static <T> void  getValue(T value){
         System.out.println("Value is " +value);
     }
 

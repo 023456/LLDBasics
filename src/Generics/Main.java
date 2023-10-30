@@ -23,8 +23,6 @@ public class Main {
         Pair<Dog,Dog> p1 = new Pair<>(d1,d2);
         p1.printFirstAndSecond();
         p1.printListofFirst(Arrays.asList(d1, d2 ));
-
-
         Pair<Animal,Animal> p2 = new Pair<>(d1,d2);
         p2.printListofFirst(Arrays.asList(d1, d2));
 
